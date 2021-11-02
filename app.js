@@ -7,7 +7,7 @@ const generateHTML = pokemons => pokemons.reduce((accumulator, { name, id, types
   const elementTypes = types.map(typeInfo => typeInfo.type.name)
   accumulator += `
         <li class="card ${elementTypes[0]}">
-          <img class="card-image alt="${name}" src="https://pokeres.bastionbot.org/images/pokemon/${id}.png" />
+          <img class="card-image alt="${name}" src="https://assets.pokemon.com/assets/cms2-pt-br/img/cards/web/SM35/SM35_PT-BR_${id}.png" />
           <h2 class="card-title">${id}.${name}</h2>
           <p class="card-subtitle">${elementTypes.join(' | ')}</p>
         </li>`
@@ -34,4 +34,8 @@ repositorio com imagens pokemons em desenho
 
 https://pokeapi.co/
 https://pokedex.org/
+
+Banco de imagens fora do ar, substituido em 01 11 2021 (linha 10)
+<img class="card-image alt="${name}" src="https://pokeres.bastionbot.org/images/pokemon/${id}.png" />
+
 */
