@@ -1,8 +1,8 @@
-<center>
-    <p> 
+<div align="center">
+    <p align="center"> 
         <h1><b>barkerDexPokeAPI</b></h1>
     </p>
-</center>
+</div>
 
 ![](assets/barkedex.png)
 
